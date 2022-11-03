@@ -35,6 +35,7 @@
                 android:weightSum="2">
 
                 <LinearLayout
+                    android:id="@+id/ll_cube"
                     android:padding="20dp"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -58,6 +59,7 @@
                 </LinearLayout>
 
                 <LinearLayout
+                    android:id="@+id/ll_cylinder"
                     android:padding="20dp"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -89,6 +91,7 @@
                 android:weightSum="2">
 
                 <LinearLayout
+                    android:id="@+id/ll_cuboid"
                     android:padding="20dp"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -112,6 +115,7 @@
                 </LinearLayout>
 
                 <LinearLayout
+                    android:id="@+id/ll_cone"
                     android:padding="20dp"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -143,6 +147,7 @@
                 android:weightSum="2">
 
                 <LinearLayout
+                    android:id="@+id/ll_sphere"
                     android:padding="20dp"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -166,6 +171,7 @@
                 </LinearLayout>
 
                 <LinearLayout
+                    android:id="@+id/ll_hemi_sphere"
                     android:padding="20dp"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
