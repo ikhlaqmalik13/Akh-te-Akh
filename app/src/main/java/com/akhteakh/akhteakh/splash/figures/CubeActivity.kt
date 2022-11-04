@@ -12,7 +12,6 @@ class CubeActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityCubeBinding.inflate(layoutInflater)
         setContentView(binding.root)
-
         binding.bCalculate.setOnClickListener {
             val side = binding.etSide.text.toString().toFloat()
 

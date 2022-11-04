@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AkhTeAkhSurfaceAreaVolumesCalulator">
         <activity
+            android:name=".ConeActivity"
+            android:exported="false" />
+        <activity
             android:name=".splash.figures.CuboidActivity"
             android:exported="false">
             <meta-data
@@ -18,6 +21,12 @@
         </activity>
         <activity
             android:name=".splash.figures.CylinderActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Cuboid"
+            android:exported="false" />
+        <activity
+            android:name=".CuboidActivity"
             android:exported="false" />
         <activity
             android:name=".splash.figures.CubeActivity"
