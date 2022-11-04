@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AkhTeAkhSurfaceAreaVolumesCalulator">
         <activity
+            android:name=".splash.figures.HemiSphereActivity"
+            android:exported="false" />
+        <activity
+            android:name=".splash.figures.SphereActivity"
+            android:exported="false" />
+        <activity
             android:name=".splash.figures.ConeActivity"
             android:exported="false" />
         <activity
