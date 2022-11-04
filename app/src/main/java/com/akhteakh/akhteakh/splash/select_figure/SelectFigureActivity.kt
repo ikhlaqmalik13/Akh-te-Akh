@@ -5,6 +5,7 @@ import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import com.akhteakh.akhteakh.databinding.ActivitySelectFigureBinding
 import com.akhteakh.akhteakh.splash.figures.CubeActivity
+import com.akhteakh.akhteakh.splash.figures.CuboidActivity
 import com.akhteakh.akhteakh.splash.figures.CylinderActivity
 
 class SelectFigureActivity : AppCompatActivity() {
@@ -23,6 +24,11 @@ class SelectFigureActivity : AppCompatActivity() {
 
         binding.llCylinder.setOnClickListener {
             val intent = Intent(this@SelectFigureActivity, CylinderActivity::class.java)
+            startActivity(intent)
+        }
+
+        binding.llCuboid.setOnClickListener {
+            val intent = Intent(this@SelectFigureActivity, CuboidActivity::class.java)
             startActivity(intent)
         }
 
