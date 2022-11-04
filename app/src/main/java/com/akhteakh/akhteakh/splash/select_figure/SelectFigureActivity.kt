@@ -32,9 +32,10 @@ class SelectFigureActivity : AppCompatActivity() {
             val intent = Intent(this@SelectFigureActivity, CuboidActivity::class.java)
             startActivity(intent)
         }
-        binding.llCuboid.setOnClickListener {
+        binding.llCone.setOnClickListener {
             val intent = Intent(this@SelectFigureActivity, ConeActivity::class.java)
             startActivity(intent)
 
+        }
     }
-}}
+}

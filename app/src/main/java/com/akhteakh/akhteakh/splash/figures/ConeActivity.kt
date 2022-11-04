@@ -17,24 +17,23 @@ class ConeActivity : AppCompatActivity() {
             val radius = binding.etRadius.text.toString().toFloat()
             val height = binding.etHeight.text.toString().toFloat()
 
-            binding.tvAnswer.text=  "TSA = ${getTotalSurfaceAreaOfCone(radius,height)} \n LSA = ${
-                getCurvedSurfaceAreaOfCone(radius,height)
-            } \n VOL = ${getVolumeOfCone(radius,height)}"
+            binding.tvAnswer.text = "TSA = ${getTotalSurfaceAreaOfCone(radius, height)} \n LSA = ${
+                getCurvedSurfaceAreaOfCone(radius, height)
+            } \n VOL = ${getVolumeOfCone(radius, height)}"
 
         }
 
     }
 
-    private fun getTotalSurfaceAreaOfCone(radius: Float, height : Float): Float {
-        return 3.14f * radius * (height + radius)}
+    private fun getTotalSurfaceAreaOfCone(radius: Float, height: Float): Float {
+        return 3.14f * radius * (height + radius)
+    }
 
-    private fun getCurvedSurfaceAreaOfCone(radius: Float, height : Float): Float {
-            return 3.14f * radius * height}
-    private fun getVolumeOfCone(radius: Float, height : Float): Float {
-        return 1/3 * (3.14f * radius * radius * height)
+    private fun getCurvedSurfaceAreaOfCone(radius: Float, height: Float): Float {
+        return 3.14f * radius * height
+    }
 
-
-
-
+    private fun getVolumeOfCone(radius: Float, height: Float): Float {
+        return (0.34f) * (3.14f * radius * radius * height)
     }
 }
