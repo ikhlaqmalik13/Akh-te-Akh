@@ -4,10 +4,7 @@ import android.content.Intent
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import com.akhteakh.akhteakh.databinding.ActivitySelectFigureBinding
-import com.akhteakh.akhteakh.splash.figures.ConeActivity
-import com.akhteakh.akhteakh.splash.figures.CubeActivity
-import com.akhteakh.akhteakh.splash.figures.CuboidActivity
-import com.akhteakh.akhteakh.splash.figures.CylinderActivity
+import com.akhteakh.akhteakh.splash.figures.*
 
 class SelectFigureActivity : AppCompatActivity() {
 
@@ -35,7 +32,16 @@ class SelectFigureActivity : AppCompatActivity() {
         binding.llCone.setOnClickListener {
             val intent = Intent(this@SelectFigureActivity, ConeActivity::class.java)
             startActivity(intent)
+        }
 
+        binding.llSphere.setOnClickListener {
+            val intent = Intent(this@SelectFigureActivity, SphereActivity::class.java)
+            startActivity(intent)
+        }
+
+        binding.llHemiSphere.setOnClickListener {
+            val intent = Intent(this@SelectFigureActivity, HemiSphereActivity::class.java)
+            startActivity(intent)
         }
     }
 }
