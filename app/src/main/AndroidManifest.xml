@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AkhTeAkhSurfaceAreaVolumesCalulator">
         <activity
-            android:name=".CuboidActivity"
+            android:name=".splash.figures.CuboidActivity"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
